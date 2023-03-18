@@ -1,6 +1,5 @@
 #!/bin/bash
-cd ../../../Projects/project2023
+cd ../../Projects/project2023/
 code .
-chrome "$1"
-./urlopener "http://localhost:3000"
-npm run dev
+gnome-terminal --tab --title "start server" -e "pwd"
+gnome-terminal --tab --title "open localhost" -e "pwd"
